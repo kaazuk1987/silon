@@ -1,0 +1,82 @@
+body{
+	margin:0;
+}
+p{
+	margin:0;
+}
+
+#navgora{
+height:1.13cm;
+background-color:#fef7f6 ;
+width:100%;
+
+margin:0 0 0 0;
+}
+
+.contphone{
+	display:flex
+}
+
+#navgp{
+display: flex;
+flex-wrap: nowrap;
+	color:000000;
+	margin:auto;
+	font-family: 'Roboto', Regular;
+     float:left;
+	font-size: 12px;
+	position:relative;
+	
+}
+
+#navgp2{
+	display: flex;
+flex-wrap: nowrap;
+	color:000000;
+	margin-left: 13em;
+	margin-top:1em;
+	font-family: 'Roboto', Regular;
+	font-size: 11px;
+	float: right;
+	margin-right:20px;
+	position: relative;
+}
+#navgp2e{
+	display: flex;
+flex-wrap: nowrap;
+display: inline;
+padding-right:10px;
+padding-left:10px;
+position: relative;
+}
+#linie{
+	display: inline-flex;
+	color:#777777;
+}
+.containerbg {
+  max-width: 1920px;
+  min-width: 640px;
+  display: flex;
+  align-items: center;
+  -webkit-justify-content: center;
+  /* Safari */
+  justify-content: center;
+  margin:0 0 0 0;
+}
+
+#imgbg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin:0 0 0 0;
+  flex-grow: 0;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+}
+#silon{
+
+	font-family: 'Roboto',Regular ;
+	font-weight: bold;
+}
