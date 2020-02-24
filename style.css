@@ -4,6 +4,9 @@ body{
 p{
 	margin:0;
 }
+a{
+	text-decoration: none;
+}
 
 #navgora{
 height:1.13cm;
@@ -17,7 +20,7 @@ margin:0 0 0 0;
 	display:flex
 }
 
-#navgp{
+.navgp{
 display: flex;
 flex-wrap: nowrap;
 	color:000000;
@@ -71,12 +74,34 @@ position: relative;
   margin:0 0 0 0;
   flex-grow: 0;
 }
+
+
+
+
 .menu{
 	display: flex;
 	flex-direction: row;
 }
+
 #silon{
 
 	font-family: 'Roboto',Regular ;
 	font-weight: bold;
+}
+#kropka{
+	color:red;
+}
+
+.silonnm{
+	margin-left:20px;
+}
+.nav{
+	display: flex;
+
+}
+
+li{
+	display:inline;
+	color:000000;
+	font-family: 'Roboto', Regular;
 }
