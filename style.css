@@ -13,7 +13,7 @@ height:1.13cm;
 background-color:#fef7f6 ;
 width:100%;
 
-margin:0 0 0 0;
+margin:0 ;
 }
 
 .contphone{
@@ -56,26 +56,6 @@ position: relative;
 	display: inline-flex;
 	color:#777777;
 }
-.containerbg {
-  max-width: 1920px;
-  min-width: 640px;
-  display: flex;
-  align-items: center;
-  -webkit-justify-content: center;
-  /* Safari */
-  justify-content: center;
-  margin:0 0 0 0;
-}
-
-#imgbg {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin:0 0 0 0;
-  flex-grow: 0;
-}
-
-
 
 
 .menu{
@@ -104,4 +84,29 @@ li{
 	display:inline;
 	color:000000;
 	font-family: 'Roboto', Regular;
+}
+.containerbg {
+  max-width: 1920px;
+  min-width: 640px;
+  display: flex;
+  align-items: center;
+  -webkit-justify-content: center;
+  /* Safari */
+  justify-content: center;
+
+}
+#imgbg {
+  width: 100%;
+  height: auto;
+  display: block;
+ 
+  flex-grow: 0;
+  position:absolute;
+
+}
+#ban1{
+	position:relative;
+	height: 550px;
+	float:left;
+	padding-left: 600px;
 }
