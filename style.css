@@ -57,15 +57,23 @@ position: relative;
 	color:#777777;
 }
 
-
-.silonh{
-	
+/*tu sie zaczyna kod gora do poprawy
+gorne menu napis silon i ikonki*/
+.contmenu{
+	display:flex;
+flex-direction: row;
 }
 
-#silon{
+.nav{
+	margin:0;
+	flex-grow:1;
 
+}
+.silon{
+	margin-left: 152px;
 	font-family: 'Roboto',Regular ;
 	font-weight: bold;
+	display: inline;
 }
 #kropka{
 	color:red;
@@ -74,16 +82,18 @@ position: relative;
 .silonnm{
 	margin-left:20px;
 }
-.nav{
-	display: inline;
 
-}
 
 li{
+	 padding-right: 20px;
 	display:inline;
 	color:000000;
 	font-family: 'Roboto', Regular;
+	font-size: 15px;
 }
+/*część z rozowym tlem i przyciskiem do sklepu */
+
+
 .containerbg {
   max-width: 1920px;
   min-width: 640px;
