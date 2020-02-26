@@ -58,9 +58,8 @@ position: relative;
 }
 
 
-.menu{
-	display: flex;
-	flex-direction: row;
+.silonh{
+	
 }
 
 #silon{
@@ -76,7 +75,7 @@ position: relative;
 	margin-left:20px;
 }
 .nav{
-	display: flex;
+	display: inline;
 
 }
 
@@ -95,12 +94,17 @@ li{
   justify-content: center;
 
 }
+
+
+/*tu bedzie kontener na to z tlem*/
+.bgban{
+
+
+}
 #imgbg {
   width: 100%;
   height: auto;
   display: block;
- 
-  flex-grow: 0;
   position:absolute;
 
 }
