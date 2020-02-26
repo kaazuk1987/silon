@@ -88,6 +88,7 @@ li{
   max-width: 1920px;
   min-width: 640px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   -webkit-justify-content: center;
   /* Safari */
@@ -97,8 +98,8 @@ li{
 }
 
 .h2{
-	position: relative;
-	margin-left: 300px;
+	margin:0;
+	 flex-grow:1;
 }
 
 .bgban{
@@ -116,5 +117,5 @@ li{
 	position:relative;
 	height: 550px;
 	float:left;
-	padding-left: 600px;
+	/*padding-left: 600px;*/
 }
