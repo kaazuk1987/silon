@@ -62,6 +62,7 @@ gorne menu napis silon i ikonki*/
 .contmenu{
 	display:flex;
 flex-direction: row;
+max-width: 1920px;
 }
 
 .nav{
