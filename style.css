@@ -96,8 +96,11 @@ li{
 
 }
 
+.h2{
+	position: relative;
+	margin-left: 300px;
+}
 
-/*tu bedzie kontener na to z tlem*/
 .bgban{
 
 
