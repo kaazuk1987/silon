@@ -76,7 +76,7 @@ margin-top:20px;
 	font-family: 'Roboto',Regular ;
 	font-weight: bold;
 	display: inline;
-	margin-bottom:45px;
+	padding-bottom:45px;
 }
 #kropka{
 	color:red;
@@ -88,7 +88,7 @@ margin-top:20px;
 
 
 
-li{
+.menu-gora{
 	padding:5px 5px 5px 5px ;
 	margin-top:30px;
 	 margin-right: 20px;
@@ -103,7 +103,7 @@ li{
 	 
 }
 	
- li:hover
+ .menu-gora:hover
  {
 
  	background-color: #f92222;
@@ -113,7 +113,7 @@ li{
  }
 .gly{
 	font-size: 20px;
-	margin-top:17px;
+	margin-top:22px;
 	margin-left:18px;
 }
 
@@ -140,6 +140,7 @@ position: relative;
 .containerbg {
   max-width: 1920px;
   min-width: 640px;
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -159,17 +160,19 @@ color:grey;
 font-family: 'Roboto', Regular;
 font-size: 15px;
 text-align:center;
-padding-top:10px;
+margin-top:190px;
+margin-left:110px;
 text-transform: uppercase;
 letter-spacing: 2px;
 }
 
 h2{
+	margin-bottom: 20px;
 	text-align:center;
 	font-family: 'Roboto', Regular;
 }
 .btn-h2{
-	margin-left: 125px;
+	margin-left: 155px;
 	position: relative;
 }
 .bgban{
@@ -190,4 +193,36 @@ h2{
     margin:0;
 	float:left;
 	/*padding-left: 600px;*/
+}
+
+/*panie prezentuja produkty*/
+#lista-ul{
+	margin-left: 100px;
+
+}  /*ta klassa moze byc niepotrzebna al poki co zostaje*/
+.panie{
+	position: relative;
+	display: inline;
+	margin-right: 30px;
+	
+}
+h3{
+margin-top: 125px;
+	text-align:center;
+	font-family: 'Roboto', Regular;
+
+}
+.d-kolo  /*okrag bez wypelnienia*/
+{
+display:inline;
+ 	position: absolute;
+ 	border-color: red;
+ 	border:2px solid;
+ 	border-radius:50px;
+ 	height:50px; 
+ 	width:50px;
+ 	z-index:99;
+ 	margin-top:320px;
+ 	margin-left:150px;
+ 	
 }
