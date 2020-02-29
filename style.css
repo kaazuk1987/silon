@@ -155,6 +155,12 @@ position: relative;
 	
 	flex-grow:1;
 }
+.txt-cont{
+  flex-direction: column;
+  justify-content:center;
+
+
+}
 #uc{
 color:grey;
 font-family: 'Roboto', Regular;
@@ -173,7 +179,7 @@ h2{
 }
 .btn-h2{
 	margin-left: 155px;
-	position: relative;
+	
 }
 .bgban{
 
