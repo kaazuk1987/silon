@@ -226,9 +226,10 @@ h2{
 }  /*ta klassa moze byc niepotrzebna al poki co zostaje*/
 .panie{
 	position: relative;
-	display: inline;
+	display: inline-flex;
 	margin-right: 30px;
-	
+	flex-direction: row;
+	 justify-content:center;
 }
 h3{
 margin-top: 125px;
@@ -238,7 +239,7 @@ margin-top: 125px;
 }
 .d-kolo  /*okrag bez wypelnienia*/
 {
-display:inline;
+
  	position: absolute;
  	border-color: red;
  	border:2px solid;
@@ -246,7 +247,6 @@ display:inline;
  	height:50px; 
  	width:50px;
  	z-index:99;
- 	margin-top:320px;
- 	margin-left:150px;
+ 	margin-right:40px;
  	
 }
