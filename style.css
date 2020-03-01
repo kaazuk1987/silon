@@ -4,19 +4,13 @@ body{
 p{
 	margin:0;
 }
+
 a{
 	text-decoration: none;
 }
 
 
 
-#navgora{
-height:1.13cm;
-background-color:#fef7f7 ;
-width:100%;
-
-margin:0 ;
-}
 
 .contphone{
 	display:flex
@@ -57,7 +51,7 @@ position: relative;
 #linie{
 	display: inline-flex;
 	color:#777777;
-}
+}  
 
 /*tu sie zaczyna kod gora do poprawy
 gorne menu napis silon i ikonki*/
@@ -108,7 +102,7 @@ margin-top:20px;
 	 
 }
 	
- .menu-gora :hover
+ .menu-gora:hover
  {
  	
 animation-play-state: running;
