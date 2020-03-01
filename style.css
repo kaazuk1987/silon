@@ -8,6 +8,8 @@ a{
 	text-decoration: none;
 }
 
+
+
 #navgora{
 height:1.13cm;
 background-color:#fef7f7 ;
@@ -89,6 +91,8 @@ margin-top:20px;
 
 
 .menu-gora{
+	  
+	  
 	padding:5px 5px 5px 5px ;
 	margin-top:30px;
 	 margin-right: 20px;
@@ -97,20 +101,40 @@ margin-top:20px;
 	font-family: 'Roboto', Regular;
 	font-size: 15px;
 	background-color: white;
-	transition:  background-color 1s ;
 	border-radius: 10px;
 	border-width: 20px;
+	
+	
 	 
 }
 	
- .menu-gora:hover
+ .menu-gora :hover
  {
-
+ 	
+animation-play-state: running;
+animation: example 1s infinite ease-in;
  	background-color: #f92222;
  	border-radius: 10px;
  	border-width: 20px;
  	
  }
+ @keyframes example {
+  0% {
+  		font-size: 15px;
+		filter: grayscale(.0.25);
+		
+	}
+	40% {
+		
+		filter: grayscale(.2);
+		
+	}
+	100% {
+		font-size: 17px;
+		filter: grayscale(0);
+
+	}
+}
 .gly{
 	font-size: 20px;
 	margin-top:22px;
