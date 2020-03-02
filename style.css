@@ -235,7 +235,7 @@ justify-content: center;
 flex-direction: row;
 }  /*ta klassa moze byc niepotrzebna al poki co zostaje*/
 .panie{
-	
+	flex-grow: :1;
 	display: flex;
 	margin-right: 30px;
 	flex-direction: row;
@@ -254,19 +254,27 @@ flex-direction: row;
  	z-index:99;
  	margin-right:20px;
  	margin-top:400px;
- 	position: relative	;		
+ 	position: relative	;	;		
 }
 .lupa{
+	position: relative;
 	right:270px;
 	
 }
 .serce{
+	position: relative;
 	right:270px;
 
 }
 
 .koszyk{
-	
+	position: relative;
     right:270px;
 
+}
+.d-kolo-wew{
+	position: relative;	
+text-align: center;
+left:20px;
+top:10px;
 }
