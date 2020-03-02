@@ -229,13 +229,14 @@ margin-top: 125px;
 
 
 .lista-ul{
-	margin-left: 100px;
+	
 display: flex;
 justify-content: center;
 flex-direction: row;
 }  /*ta klassa moze byc niepotrzebna al poki co zostaje*/
 .panie{
-	flex-grow: :1;
+	
+	
 	display: flex;
 	margin-right: 30px;
 	flex-direction: row;
@@ -253,23 +254,24 @@ flex-direction: row;
  	width:50px;
  	z-index:99;
  	margin-right:20px;
- 	margin-top:400px;
+ 	margin-top:360px;
+
  	position: relative	;	;		
 }
 .lupa{
 	position: relative;
-	right:270px;
+	right:250px;
 	
 }
 .serce{
 	position: relative;
-	right:270px;
+	right:250px;
 
 }
 
 .koszyk{
 	position: relative;
-    right:270px;
+    right:250px;
 
 }
 .d-kolo-wew{
