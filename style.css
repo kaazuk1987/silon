@@ -236,14 +236,14 @@ flex-direction: row;
 }  /*ta klassa moze byc niepotrzebna al poki co zostaje*/
 .panie{
 	display: inline-flex;
-	margin-right: -170px;
+	
 	flex-direction: row;
 	 justify-content:center;
 }
 
 .d-kolo  /*okrag bez wypelnienia*/
 {
-	display: inline;
+	display: none;
 	flex-grow: :1;
  	border-color: red;
  	border:2px solid;
