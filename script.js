@@ -1,16 +1,21 @@
 $(document).ready(function(){
-$(".panie").css("margin-right","50");
+$(".panie").css("margin-right","50px");
 
 
 $(".panie").mouseenter(function(){
- $(".panie > .d-kolo").show();
-$(".panie").css("margin-right","-160");
+$(".panie").css("margin-right","-160px");
+$(".panie > .d-kolo").show();
+
 
 });
+
 $(".panie").mouseleave(function(){
- $(".panie > .d-kolo").hide();
-$(".panie").css("margin-right","50");
+$(".panie > .d-kolo").hide();
+$(".panie").css("margin-right","50px");
 });
+
+
+
 });
 
 

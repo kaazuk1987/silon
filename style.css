@@ -233,7 +233,7 @@ margin-top: 125px;
 display: flex;
 justify-content: center;
 flex-direction: row;
-}  /*ta klassa moze byc niepotrzebna al poki co zostaje*/
+}  
 .panie{
 	display: inline-flex;
 	
@@ -281,4 +281,35 @@ flex-direction: row;
 text-align: center;
 top:20px;
 left:13px;
+}
+/*panie zaprezentowaly produkty*/
+
+.cont-baner2{
+	background-color:#eae2d9;
+	display:flex; 
+	flex-direction: row;
+	justify-content:flex-end;
+}
+.df{
+	flex-grow:1;
+}
+h4{
+font-family:'Handlee' , Regular ;
+font-size:80px;
+}
+.ban2-napisy{
+position: relative;
+top:200px;
+font-family:'Roboto' , Regular ;
+text-indent: 2px;
+font-size: 20px;
+text-align: center;
+}
+
+
+.ban2-obrazek{
+
+
+
+
 }
