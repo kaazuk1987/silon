@@ -283,21 +283,26 @@ text-align: center;
 top:20px;
 left:13px;
 }
+.cont-ceny{
+	display:flex;
+	justify-content: center;
+flex-direction: row;
+}
+
+/*ceny*/
 .pani1-cena{
-	display:block;
-	position: relative;
 	
-	width:400px;
+	
+	flex-grow:1;
+	
 }
-.pani2-cena{
-	position:relative;
-	margin-left:400;
-}
+
 #panie-txt-p{
-	text-align: center;
+	left:130px;
 	font-family: 'Roboto', Regular;
 	font-size:17px;
 	color:grey;
+	position: relative;
 }
 .star{
 left:150px;
@@ -306,9 +311,10 @@ color:red;
 
 }
 #cena{
-	left:180px;
+	left:185px;
 	position: relative;
 }
+
 /*panie zaprezentowaly produkty*/
 
 .cont-baner2{
