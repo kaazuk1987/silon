@@ -255,9 +255,10 @@ flex-direction: row;
  	margin-top:360px;
  	background-color:white; 
  	position: relative;
- 	transition: background-color 1s;		
+ 	transition: background-color 2s ;		
 }
 .d-kolo:hover{
+	
 	background-color:red; 
 }
 .lupa{
@@ -281,6 +282,32 @@ flex-direction: row;
 text-align: center;
 top:20px;
 left:13px;
+}
+.pani1-cena{
+	display:block;
+	position: relative;
+	
+	width:400px;
+}
+.pani2-cena{
+	position:relative;
+	margin-left:400;
+}
+#panie-txt-p{
+	text-align: center;
+	font-family: 'Roboto', Regular;
+	font-size:17px;
+	color:grey;
+}
+.star{
+left:150px;
+position: relative;
+color:red;
+
+}
+#cena{
+	left:180px;
+	position: relative;
 }
 /*panie zaprezentowaly produkty*/
 
