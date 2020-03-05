@@ -5,7 +5,10 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!--ponizej fontawesome pakiet ikon, powyzej karuzelasowa-->
 <script src="https://kit.fontawesome.com/fd22e40458.js"></script>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -76,7 +79,7 @@
 	 </div>
     <!--koniec czesci z rozowym tlem i pryciskiem od zakupow -->
 
-<!-- 3 panie przykladowe zakupy -->
+<!-- 3 panie przykladowe zakupy  jest tu tez skrypt js-->
       <h3><b>FEATURED PRODUCTS</b></h3>
       <script src="script.js"></script>
       <div class="cont-tlo">
@@ -102,7 +105,7 @@
         
 <br>
 
-    <!-- do zmian panie jako cssback i div-contener na nie potem div-contener na przyciski centrowanie flexem i margin od dolu dla Przyciskow -->  
+    <!-- do zmian panie jako cssback i div-contener, na nie potem div-contener na przyciski centrowanie flexem i margin od dolu dla Przyciskow -->  
 
       <br>
       <div class="cont-ceny">
@@ -143,7 +146,7 @@
         <!-- Koniec dzialu z paniami -->         
       
 <br>
-
+<!-- 50% off start -->
 <div class="cont-baner2">
  
   <div class="ban2-napisy df">
@@ -157,7 +160,26 @@
  </div> 
 
 </div>  
-    
+    <!--koniec 50%off -->
+    <!--karuzela-->
+    <h5>MOST POPULAR</h5>
+<script> $(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});</script>
+<div class="owl-carousel owl-theme">
+  <div> <img src="./images/products/4.jpg"/> </div>
+  <div> <img src="./images/products/5.jpg"/></div>
+  <div> <img src="./images/products/6.jpg"/> </div>
+  <div> <img src="./images/products/7.jpg"/></div>
+ 
+</div>
+    <!--koniec karuzeli-->
 
+
+
+
+<footer>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+</footer>
 </body>
 </html>

@@ -203,20 +203,13 @@ h2{
 
 
 }
-/* juz nie istnieje chyba
-#imgbg {
-  width: 100%;
-  height: auto;
-  display: block;
-  position:absolute;
 
-}*/
 #ban1{
 	position:relative;
 	height: 550px;
     margin:0;
 	float:left;
-	/*padding-left: 600px;*/
+	
 }
 
 /*panie prezentuja produkty*/
@@ -341,8 +334,7 @@ text-align: center;
 
 
 .ban2-obrazek{
-
-
-
-
 }
+
+/*moze byc troche lepiej pania na prawo bardziej igradient na tle ew
+ale tu jest koniec dzialu*/
