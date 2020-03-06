@@ -18,7 +18,7 @@ $(".panie").css("margin-right","50px");
 $(".owl-carousel").owlCarousel();
 var owl = $(".owl-carousel");
 owl.owlCarousel({
-    items:4,
+    items:7,
     loop:true,
     margin:10,
     autoplay:true,
@@ -26,11 +26,11 @@ owl.owlCarousel({
     autoplayHoverPause:true
 });
 $('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[1000])
-    owl.trigger('play.owl.loop')
+    owl.trigger('play.owl.autoplay',[1000]);
+    
 })
 $('.stop').on('click',function(){
-    owl.trigger('stop.owl.autoplay')
+    owl.trigger('stop.owl.autoplay');
 })
 
 });
