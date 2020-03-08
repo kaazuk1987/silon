@@ -1,4 +1,8 @@
 $(document).ready(function(){
+//karuzela
+
+
+
 $(".panie").css("margin-right","50px");
 
 
@@ -14,15 +18,15 @@ $(".panie > .d-kolo").hide();
 $(".panie").css("margin-right","50px");
 });
 
-//karuzela
-$(".owl-carousel").owlCarousel();
+
+//$(".owl-carousel").owlCarousel();
 var owl = $(".owl-carousel");
 owl.owlCarousel({
     items:7,
     loop:true,
-    margin:10,
-    autoplay:true,
-    autoplayTimeout:1000,
+    margin:90,
+    autoplay:false,
+    autoplayTimeout:2000,
     autoplayHoverPause:true
 });
 $('.play').on('click',function(){
@@ -32,6 +36,7 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay');
 })
+
 
 });
 

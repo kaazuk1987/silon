@@ -339,6 +339,8 @@ text-align: center;
 /*moze byc troche lepiej pania na prawo bardziej igradient na tle ew
 ale tu jest koniec dzialu*/
 
+
+/*poczatek karuzeli*/
 h5{
 text-align: center;
 font-family:'Roboto' , Regular ;
@@ -350,4 +352,16 @@ font-size:40px;
 	height:400px;
 
 	margin-bottom: 90px;
+}
+.item{
+		width:302px;
+	height:400px;
+	margin-right: 50px;
+}
+/*koniec karuzeli*/
+
+/*poczatek ikonek*/
+.ikonki{
+
+
 }
