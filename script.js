@@ -24,10 +24,10 @@ var owl = $(".owl-carousel");
 owl.owlCarousel({
     items:7,
     loop:true,
-    margin:90,
+    margin:250,
     autoplay:true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true
+    autoplayTimeout:1500,
+    autoplayHoverPause:false
 });
 $('.play').on('click',function(){
     owl.trigger('play.owl.autoplay',[1000]);
