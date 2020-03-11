@@ -348,15 +348,22 @@ font-size:40px;
 }
 
 .prod{
-	width:302px;
-	height:400px;
+	width:200px;
+	height:270px;
 
-	margin-bottom: 90px;
+	
 }
 .item{
-		width:302px;
-	height:400px;
-	margin-right: 50px;
+		
+
+}
+.car-txt-p
+{
+right: :100px;
+}
+.cena{
+	left:185px;
+	position: relative;
 }
 /*koniec karuzeli*/
 
