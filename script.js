@@ -22,9 +22,9 @@ $(".panie").css("margin-right","50px");
 //$(".owl-carousel").owlCarousel();
 var owl = $(".owl-carousel");
 owl.owlCarousel({
-    items:7,
+    items:4,
     loop:true,
-    margin:230,
+    margin:90,
     autoplay:true,
     autoplayTimeout:1500,
     autoplayHoverPause:true,
