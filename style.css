@@ -349,13 +349,20 @@ font-size:40px;
 
 .prod{
 	width:200px;
-	height:270px;
+	height:320px;
 
 	
 }
 .item{
-		
+	
+}		
+#karuzela{
+width:1000px;
+height: 500px;
+margin-left: 200px;
 
+
+}
 }
 .car-txt-p
 {

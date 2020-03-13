@@ -24,12 +24,12 @@ var owl = $(".owl-carousel");
 owl.owlCarousel({
     items:4,
     loop:true,
-    margin:90,
+    margin:10,
     autoplay:true,
     autoplayTimeout:1500,
     autoplayHoverPause:true,
     pagination : true,
-    nav:true,
+    
     
 });
 /*$('.play').on('click',function(){
