@@ -379,12 +379,12 @@ right: :100px;
 display:inline-block;
 
 }
-.kwadrat{
-	width:50px;
-	height:50px;
+.wor{
+	width:250px;
+	height:150px;
 	position:relative;
 	display:inline-block;
-	border:1px grey solid;
+	border:2px grey solid;
 	background-repeat: no-repeat;
 	background-image:url("images/feature-icons/1.png");
 	background-position: center;
@@ -392,11 +392,11 @@ display:inline-block;
 }
 
 .woz{
-	width:50px;
-	height:50px;
+	width:250px;
+	height:150px;
 	position:relative;
 	display:inline-block;
-	border:1px grey solid;
+	border:2px grey solid;
 	background-repeat: no-repeat;
 	background-image:url("images/feature-icons/2.png");
 	background-position: center;
@@ -404,22 +404,22 @@ display:inline-block;
 }
 
 .sluchawki{
-	width:50px;
-	height:50px;
+	width:250px;
+	height:150px;
 	position:relative;
 	display:inline-block;
-	border:1px grey solid;
+	border:2px grey solid;
 	background-repeat: no-repeat;
 	background-image:url("images/feature-icons/3.png");
 	background-position: center;
 
 }
 .tarcza{
-	width:50px;
-	height:50px;
+	width:250px;
+	height:150px;
 	position:relative;
 	display:inline-block;
-	border:1px grey solid;
+	border:2px grey solid;
 	background-repeat: no-repeat;
 	background-image:url("images/feature-icons/4.png");
 	background-position: center;
