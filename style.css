@@ -358,7 +358,7 @@ font-size:40px;
 }		
 #karuzela{
 width:1000px;
-height: 500px;
+height: 450px;
 margin-left: 200px;
 
 
@@ -377,6 +377,7 @@ right: :100px;
 /*poczatek ikonek*/
 .ikonki{
 display:inline-block;
+margin-bottom: 200px;
 
 }
 .wor{
@@ -389,6 +390,7 @@ display:inline-block;
 	background-image:url("images/feature-icons/1.png");
 	background-position: center;
 	margin-left:200px;
+
 
 }
 
@@ -458,5 +460,9 @@ display:inline-block;
 	margin-left:15px;
 	font-family:'Roboto' , Regular ;
 	text-align: center;
+}
+.ikonki-dolny-tekst{
+	color:grey;
+
 }
 
