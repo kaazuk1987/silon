@@ -380,7 +380,7 @@ display:inline-block;
 
 }
 .wor{
-	width:250px;
+	width:230px;
 	height:150px;
 	position:relative;
 	display:inline-block;
@@ -388,11 +388,13 @@ display:inline-block;
 	background-repeat: no-repeat;
 	background-image:url("images/feature-icons/1.png");
 	background-position: center;
+	margin-left:200px;
 
 }
 
 .woz{
-	width:250px;
+	margin-left: 20px;
+	width:230px;
 	height:150px;
 	position:relative;
 	display:inline-block;
@@ -404,7 +406,8 @@ display:inline-block;
 }
 
 .sluchawki{
-	width:250px;
+	margin-left: 20px;
+	width:230px;
 	height:150px;
 	position:relative;
 	display:inline-block;
@@ -415,7 +418,8 @@ display:inline-block;
 
 }
 .tarcza{
-	width:250px;
+	margin-left: 20px;
+	width:230px;
 	height:150px;
 	position:relative;
 	display:inline-block;
@@ -425,3 +429,34 @@ display:inline-block;
 	background-position: center;
 
 }
+.wor-tekst{
+	position: relative;
+	margin-top:100px;
+	margin-left:15px;
+	font-family:'Roboto' , Regular ;
+	text-align: center;
+}
+
+.woz-tekst{
+	position: relative;
+	margin-top:100px;
+	margin-left:15px;
+	font-family:'Roboto' , Regular ;
+	text-align: center;
+}
+
+.sluchawki-tekst{
+	position: relative;
+	margin-top:100px;
+	margin-left:15px;
+	font-family:'Roboto' , Regular ;
+	text-align: center;
+}
+.tarcza-tekst{
+	position: relative;
+	margin-top:100px;
+	margin-left:15px;
+	font-family:'Roboto' , Regular ;
+	text-align: center;
+}
+
