@@ -529,10 +529,15 @@ border:2px solid red;
 
 }
 
-.gwiazdy{
+.p2-gwiazdy{
 	position: absolute;
-	left:-95px;
-	display: inline-block;
+	bottom:8px;
+	left:-40%;
+	display:block;
+	
+}
+.p2-gwiazdy i{
+	
 	
 }
 .panie-txt-p{
@@ -545,5 +550,6 @@ border:2px solid red;
 .pani2-cena-dol{
 position: absolute;
 	left:40%;
+	bottom:10%;
 	display: inline-block;
 }
