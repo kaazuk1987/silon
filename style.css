@@ -353,12 +353,10 @@ font-size:40px;
 .prod{
 	width:150px;
 	height:320px;
-
+position:relative;
 	
 }
-.item{
 	
-}		
 #karuzela{
 width:1000px;
 height: 450px;
@@ -366,11 +364,19 @@ margin-left: 200px;
 
 
 }
-
+.car-gwiazdy{
+position:absolute;
+right:-70px;
+display: inline-block;
+}
 
 .car-txt-p
 {
-right: :100px;
+
+}
+.car-cena{
+position:absolute;
+right:45%;
 }
 .cena{
 	left:185px;
