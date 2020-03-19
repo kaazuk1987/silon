@@ -1,9 +1,9 @@
 body{
 	margin:0;
 }
-p{
+/*p{
 	margin:0;
-}
+}*/
 
 a{
 	text-decoration: none;
@@ -291,6 +291,7 @@ flex-direction: row;
 }
 
 #panie-txt-p{
+	top:-20px;
 	left:130px;
 	font-family: 'Roboto', Regular;
 	font-size:17px;
@@ -298,14 +299,16 @@ flex-direction: row;
 	position: relative;
 }
 .star{
+top:-20px;
 left:150px;
 position: relative;
 color:red;
 
 }
 #cena{
+	top:-20px;
 	left:185px;
-	position: relative;
+	position: absolute;
 }
 
 /*panie zaprezentowaly produkty*/
@@ -363,7 +366,8 @@ margin-left: 200px;
 
 
 }
-}
+
+
 .car-txt-p
 {
 right: :100px;
@@ -465,4 +469,75 @@ margin-bottom: 200px;
 	color:grey;
 
 }
+.pani2-cont{
+	display: inline-flex;
+	/*flex-grow: 1;*/
+}
 
+.panie2{
+	width:230px;
+	height:300px;
+	margin-left:200px;
+	background-image: url("images/products/8.jpg");
+
+}
+
+
+.panie3{
+	width:230px;
+	height:300px;
+	margin-left:20px;
+	background-image: url("images/products/9.jpg");
+}
+
+.panie4{
+	width:230px;
+	height:300px;
+	margin-left:20px;
+	background-image: url("images/products/10.jpg");
+}
+.panie5{
+	width:230px;
+	height:300px;
+	margin-left:20px;
+	background-image: url("images/products/11.jpg");
+}
+
+#pani21{
+margin-left:0px;
+
+}
+.pani2-cont-cena{
+	margin-left:200px;
+	margin-right:165px;
+position: relative;
+border:2px solid red;
+}
+.pani2-cena{
+	position: relative;
+	width:230px;
+	height:70px;
+	border:2px solid;
+	display: inline-block;
+	margin-left:16px;
+
+}
+
+.gwiazdy{
+	position: absolute;
+	left:-95px;
+	display: inline-block;
+	
+}
+.panie-txt-p{
+	position:absolute;
+	display:inline-block;
+	
+	left:50%;
+	color:grey;
+}
+.pani2-cena-dol{
+position: absolute;
+	left:40%;
+	display: inline-block;
+}
