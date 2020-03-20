@@ -284,14 +284,12 @@ flex-direction: row;
 
 /*ceny*/
 .pani1-cena{
-	
-	
-	flex-grow:1;
+		flex-grow:1;
 	
 }
 
-#panie-txt-p{
-	top:-20px;
+#panie-txt-span{
+	bottom:20px;
 	left:130px;
 	font-family: 'Roboto', Regular;
 	font-size:17px;
@@ -305,10 +303,10 @@ position: relative;
 color:red;
 
 }
-#cena{
-	top:-20px;
+.cena{
+	bottom:20px;
 	left:185px;
-	position: absolute;
+	position: relative;
 }
 
 /*panie zaprezentowaly produkty*/
