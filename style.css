@@ -232,7 +232,7 @@ flex-direction: row;
 	
 	flex-direction: row;
 	 justify-content:center;
-	 border:2px solid;
+	 
 }
 
 .d-kolo  /*okrag bez wypelnienia*/
@@ -299,7 +299,8 @@ flex-direction: row;
 }
 .star{
 top:-20px;
-left:150px;
+/*left:150px;*/
+left:33%;
 position: relative;
 color:red;
 
@@ -347,11 +348,12 @@ h5{
 text-align: center;
 font-family:'Roboto' , Regular ;
 font-size:40px;
+margin-bottom:40px;
 }
 
 .prod{
-	width:150px;
-	height:320px;
+	width:230px;
+	height:420px;
 position:relative;
 	
 }
@@ -363,14 +365,19 @@ margin-left: 200px;
 
 
 }
-.car-gwiazdy{
-position:absolute;
-right:-70px;
-display: inline-block;
+.car-gwiazdy {
+
+
 }
 
-.car-txt-p
+.car-txt-span
 {
+margin:50px;
+bottom:20px;
+left:130px;
+font-family: 'Roboto', Regular;
+font-size:15px;
+color:grey;
 
 }
 .car-cena{
@@ -385,6 +392,7 @@ right:45%;
 
 /*poczatek ikonek*/
 .ikonki{
+	margin-top:100px;
 display:inline-block;
 margin-bottom: 200px;
 
@@ -516,7 +524,7 @@ margin-left:0px;
 	margin-left:200px;
 	margin-right:165px;
 position: relative;
-border:2px solid red;
+
 }
 .pani2-cena{
 	position: relative;
@@ -531,7 +539,7 @@ border:2px solid red;
 .p2-gwiazdy{
 	position: absolute;
 	bottom:8px;
-	left:-40%;
+	left:10%;
 	display:block;
 	
 }
