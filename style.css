@@ -544,7 +544,7 @@ border:2px solid red;
 	position:absolute;
 	display:inline-block;
 	
-	left:50%;
+	margin-left:50%;
 	color:grey;
 }
 .pani2-cena-dol{
