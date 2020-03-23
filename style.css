@@ -520,6 +520,33 @@ margin-bottom: 200px;
 margin-left:0px;
 
 }
+.pani3-cont{
+display: inline-flex;	
+}
+.panie6{
+	width:230px;
+	height:300px;
+	/*margin-left:200px;*/
+	background-image: url("images/products/12.jpg");
+}
+.panie7{
+	width:230px;
+	height:300px;
+	margin-left:20px;
+	background-image: url("images/products/13.jpg");
+}
+.panie8{
+	width:230px;
+	height:300px;
+	margin-left:20px;
+	background-image: url("images/products/14.jpg");
+}
+.panie9{
+	width:230px;
+	height:300px;
+	margin-left:20px;
+	background-image: url("images/products/15.jpg");
+}
 .pani2-cont-cena{
 	margin-left:200px;
 	margin-right:165px;
@@ -530,7 +557,7 @@ position: relative;
 	position: relative;
 	width:230px;
 	height:70px;
-	border:2px solid;
+	
 	display: inline-block;
 	margin-left:16px;
 
@@ -547,11 +574,11 @@ position: relative;
 	
 	
 }
-.panie-txt-p{
+.panie2-txt-p{
 	position:absolute;
-	display:inline-block;
 	
-	margin-left:50%;
+	font-family:'Roboto' , Regular ;
+	margin-left:18%;
 	color:grey;
 }
 .pani2-cena-dol{
