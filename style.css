@@ -632,8 +632,8 @@ color: #123456;
 	transform: scale(0.85,0.85);
 }
 
-.pzpodpisami {
-	width: 1000px;
+.pzp {
+	width: 100px;
 	border: 5px solid red;
 	background: yellow;
 	height: 400px;
