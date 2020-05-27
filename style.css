@@ -634,9 +634,10 @@ color: #123456;
 
 .pzp {
 	width: 100px;
-	border: 5px solid red;
-	background: yellow;
+	border: 1px solid black;
+	background-color: yellow;
 	height: 400px;
+	position: absolute;
 }
 #p1zp {
 background-image: url("C:/xamp1/htdocs/Silonpro/silon/images/post/1.jpg");
