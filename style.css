@@ -632,33 +632,26 @@ color: #123456;
 	transform: scale(0.85,0.85);
 }
 
-.pzp {
-	width: 1100px;
-	border: 2px solid black;
-	flex-direction: row;
-	height: 480px;
-	margin-left:600px;
-	bottom:430px;
-	right:38%;
-	position: relative;
-	display: flex;
-}
-#p1zp {
 
-	flex-grow:1;
-	position: absolute;
-	display: inline;
+
+
+#p1zp {
+	
+	
+	
 background-image: url("C:/xamp1/htdocs/Silonpro/silon/images/post/1.jpg");
 }
+
 #p2zp {
-	flex-grow:1;
-	position: absolute;
-		display: inline;
+	margin-bottom:30px;
+		
+		
 background-image: url("C:/xamp1/htdocs/Silonpro/silon/images/post/2.jpg");
 }
+
+
 #p3zp {
-	flex-grow:1;
-	position: absolute;
-		display: inline;
+		
+		
 background-image: url("C:/xamp1/htdocs/Silonpro/silon/images/post/3.jpg");	
 }
