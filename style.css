@@ -601,7 +601,7 @@ margin-bottom:25px;
 
 	font-family:'Roboto' , Regular ;
 font-size:1px;
-cursorolor: #123456;
+	color: #123456;
 	display:inline-block;
 	width:350px;
 	height:350px;
@@ -636,22 +636,28 @@ cursorolor: #123456;
 
 
 #p1zp {
-	
-	
-	
-background-image: url("C:/xamp1/htdocs/Silonpro/silon/images/post/1.jpg");
+	width:359px;
+	height: 360px;
+	margin-left:31px;
+	position: relative;
+background-image: url("images/post/1.jpg");
 }
 
 #p2zp {
-	margin-bottom:31px;
+	width:359px;
+	height: 360px;
+
+	margin-left:31px;
+	position: relative;
 		
-		
-background-image: url("C:/xamp1/htdocs/Silonpro/silon/images/post/2.jpg");
+background-image: url("images/post/2.jpg");
 }
 
 
 #p3zp {
-		
-		
-background-image: url("C:/xamp1/htdocs/Silonpro/silon/images/post/3.jpg");	
+		width:359px;
+		height: 360px;
+		margin-left:31px;
+		position: relative;
+background-image: url("images/post/3.jpg");	
 }
