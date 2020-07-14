@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
 
-$(".panie").css("margin-right","52px");
+$(".panie").css("margin-right","50px");
 
 
 $(".panie").mouseenter(function(){
