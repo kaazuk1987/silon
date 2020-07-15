@@ -15,7 +15,7 @@ $(".panie > .d-kolo").show();
 
 $(".panie").mouseleave(function(){
 $(".panie > .d-kolo").hide();
-$(".panie").css("margin-right","50px");
+$(".panie").css("margin-right","51px");
 });
 
 
