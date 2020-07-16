@@ -648,7 +648,7 @@ background-image: url("images/post/1.jpg");
 
 #p2zp {
 	width:350px;
-	height: 3655px;
+	height: 355px;
 	margin-left:31px;
 	position: relative;
 	display: inline-block;
@@ -659,8 +659,19 @@ background-image: url("images/post/2.jpg");
 #p3zp {
 		display: inline-block;
 		width:359px;
-		height: 3655px;
+		height: 355px;
 		margin-left:31px;
 		position: relative;
 background-image: url("images/post/3.jpg");	
+}
+
+#p1zpnap{
+
+}
+
+#p2zpnap{
+	
+}
+#p3zpnap{
+	
 }
