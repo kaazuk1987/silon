@@ -756,3 +756,51 @@ background-image: url("images/post/3.jpg");
 	bottom:185px;
 	position: relative;
 	}
+
+#fh6{
+	position: relative;
+	bottom:130px;
+	font-family:'Roboto' , Regular ;
+	font-size:24px;
+	color: black;
+}
+#footerkw1
+{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	background-color: red;
+	left:230px;
+	right: 50px;
+	position:relative;
+}
+#footerkw2
+{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	background-color: yellow;
+	left:230px;
+	right: 50px;
+	position:relative;
+}
+#footerkw3
+{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	background-color: blue;
+	left:230px;
+	right: 50px;
+	position:relative;
+}
+#footerkw4
+{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	background-color: green;
+	left:230px;
+	right: 50px;
+	position:relative;
+}
