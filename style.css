@@ -766,41 +766,74 @@ background-image: url("images/post/3.jpg");
 }
 #footerkw1
 {
+	font-family:'Roboto' , Regular ;
+	font-size:24px;
+	color:black;
+	text-align: center;
 	display: inline-block;
 	width: 250px;
 	height: 250px;
-	background-color: red;
+	background-color:grey;
+	background-image: url("images/logo/face.png");
+	background-size: cover;
 	left:230px;
 	right: 50px;
 	position:relative;
+	
 }
 #footerkw2
 {
+	font-family:'Roboto' , Regular ;
+	font-size:24px;
+	color:black;
+	text-align: center;
 	display: inline-block;
 	width: 250px;
 	height: 250px;
-	background-color: yellow;
+	background-color: white;
+	border-radius: 10px;
 	left:230px;
 	right: 50px;
 	position:relative;
+
+	background-image: url("images/logo/instatr.png");
+	background-size: cover;
 }
 #footerkw3
 {
+	font-family:'Roboto' , Regular ;
+	font-size:24px;
+	color:black;
+	text-align: center;
 	display: inline-block;
 	width: 250px;
 	height: 250px;
-	background-color: blue;
+	background-color: white;
 	left:230px;
 	right: 50px;
 	position:relative;
-}
+	border-radius: 10px;
+	background-image: url("images/logo/tindertr.png");
+	background-size: 95%;
+	background-repeat: no-repeat;
+	background-position: center;
+}	
 #footerkw4
 {
+	font-family:'Roboto' , Regular ;
+	font-size:24px;
+	color:black;
+	text-align: center;
 	display: inline-block;
 	width: 250px;
 	height: 250px;
-	background-color: green;
+	background-color: white;
 	left:230px;
 	right: 50px;
 	position:relative;
+	border-radius: 10px;
+	background-image: url("images/logo/twit-tr.png");
+	background-size: 95%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
