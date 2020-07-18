@@ -821,7 +821,7 @@ background-image: url("images/post/3.jpg");
 #footerkw4
 {
 	font-family:'Roboto' , Regular ;
-	font-size:24px;
+	font-size:25px;
 	color:black;
 	text-align: center;
 	display: inline-block;
@@ -830,6 +830,7 @@ background-image: url("images/post/3.jpg");
 	background-color: white;
 	left:230px;
 	right: 50px;
+	bottom:200px;
 	position:relative;
 	border-radius: 10px;
 	background-image: url("images/logo/twit-tr.png");
