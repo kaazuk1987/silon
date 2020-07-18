@@ -640,7 +640,7 @@ font-size:1px;
 #p1zp {
 	width:350px;
 	height: 350px;
-	margin-left:51px;
+	margin-left:31px;
 	position: relative;
 	display: inline-block;
 background-image: url("images/post/1.jpg");
@@ -649,7 +649,7 @@ background-image: url("images/post/1.jpg");
 #p2zp {
 	width:350px;
 	height: 350px;
-	margin-left:51px;
+	margin-left:31px;
 	position: relative;
 	display: inline-block;
 background-image: url("images/post/2.jpg");
@@ -660,7 +660,7 @@ background-image: url("images/post/2.jpg");
 		display: inline-block;
 		width:350px;
 		height: 350px;
-		margin-left:51px;
+		margin-left:31px;
 		position: relative;
 background-image: url("images/post/3.jpg");	
 }
@@ -783,7 +783,7 @@ background-image: url("images/post/3.jpg");
 	position:relative;
 	
 }
-#footerkw2
+#fukw2
 {
 	font-family:'Roboto' , Regular ;
 	font-size:24px;
@@ -801,7 +801,7 @@ background-image: url("images/post/3.jpg");
 	background-image: url("images/logo/instatr.png");
 	background-size: cover;
 }
-#footerkw3
+#fukw3
 {
 	font-family:'Roboto' , Regular ;
 	font-size:25px;
@@ -820,7 +820,7 @@ background-image: url("images/post/3.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 }	
-#footerkw4
+#fukw4
 {
 	font-family:'Roboto' , Regular ;
 	font-size:25px;
