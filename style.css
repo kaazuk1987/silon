@@ -658,7 +658,7 @@ background-image: url("images/post/2.jpg");
 
 #p3zp {
 		display: inline-block;
-		width:359px;
+		width:350px;
 		height: 350px;
 		margin-left:51px;
 		position: relative;
@@ -764,6 +764,8 @@ background-image: url("images/post/3.jpg");
 	font-size:24px;
 	color: black;
 }
+
+/*blad to nie footer*/
 #footerkw1
 {
 	font-family:'Roboto' , Regular ;
@@ -776,7 +778,7 @@ background-image: url("images/post/3.jpg");
 	background-color:grey;
 	background-image: url("images/logo/face.png");
 	background-size: cover;
-	left:230px;
+	left:200px;
 	right: 50px;
 	position:relative;
 	
@@ -792,7 +794,7 @@ background-image: url("images/post/3.jpg");
 	height: 250px;
 	background-color: white;
 	border-radius: 10px;
-	left:230px;
+	left:200px;
 	right: 50px;
 	position:relative;
 
@@ -809,7 +811,7 @@ background-image: url("images/post/3.jpg");
 	width: 250px;
 	height: 250px;
 	background-color: white;
-	left:230px;
+	left:200px;
 	right: 50px;
 	position:relative;
 	border-radius: 10px;
@@ -828,7 +830,7 @@ background-image: url("images/post/3.jpg");
 	width: 250px;
 	height: 250px;
 	background-color: white;
-	left:230px;
+	left:200px;
 	right: 50px;
 	bottom:200px;
 	position:relative;
