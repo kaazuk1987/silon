@@ -8,7 +8,19 @@ body{
 a{
 	text-decoration: none;
 }
+@media only screen and (max-width: 1000px){
+.nav{
+	  
+	 
+	display:none;
 
+	
+	
+	 
+}
+
+
+}
 
 
 
