@@ -1,5 +1,6 @@
 body{
 	margin:0;
+	padding:0;
 }
 /*p{
 	margin:0;
@@ -10,10 +11,19 @@ a{
 }
 @media only screen and (max-width: 1000px) {
 .nav{
-	  	display:none;
+	  	display: none;
 
-}}
+};}
+@media only screen and (max-width: 1000px) {
+.silon{
+	  	visibility: :none;
 
+};}
+@media only screen and (max-width: 1000px) {
+#kropka{
+	  	visibility: :none;
+
+};}
 
 .contphone{
 	display:flex
@@ -22,7 +32,6 @@ a{
 
 .dm{
 	display: none;
-
 	
 }
 @media only screen and (max-width: 1000px) {
@@ -32,9 +41,9 @@ a{
 	left:20px;
 	position:fixed;
 	float:right;
-	background-color:;
 	
-}
+	
+};
 
 }
 
@@ -89,16 +98,39 @@ margin-top:20px;
 	flex-grow:1;
 
 }
+@media only screen and (max-width: 1000px){
+#gora_prst{
+position:fixed;
+background-color: #ff5050;
+margin-top:0px;
+height:70px;
+width:100%;
+
+
+	};}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+#kropka{
+	visibility: hidden;
+};}
+
 .silon{
 	margin-left: 152px;
 	font-family: 'Roboto',Regular ;
 	font-weight: bold;
 	display: inline;
 	padding-bottom:45px;
+	z-index: 5;
 }
 #kropka{
-	color:red;
-}
+	color:red;}
+
  ul{
 
  	margin-top:30px;
@@ -201,29 +233,42 @@ position: relative;
 
 
 }
+@media only screen and (max-width: 1000px) {
 #uc{
 color:grey;
 font-family: 'Roboto', Regular;
 font-size: 15px;
 text-align:center;
 margin-top:190px;
-margin-left:40px;
+right:50px;
 text-transform: uppercase;
 letter-spacing: 2px;
-}
+position:absolute;
+};}
 
 h2{
 
-	
 	margin-bottom: 20px;
 	text-align:center;
 	font-family: 'Roboto', Regular;
 }
+@media only screen and (max-width: 1000px) {
+.btn-h2{
+	margin-right:120px;
+	position: absolute;
+};}
 .btn-h2{
 	margin-left: 75px;
-	
 }
+@media only screen and (max-width: 1000px) {
+#ban1{
+	visibility: hidden;
+	position:relative;
+	
+};
 
+
+}
 
 #ban1{
 	position:relative;
