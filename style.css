@@ -15,12 +15,6 @@ a{
 }}
 
 
-
-
-
-
- //media end
-
 .contphone{
 	display:flex
 }
@@ -43,9 +37,7 @@ a{
 }
 
 }
-#bzd{
-	display: inline;
-}
+
 .navgp{
 display: flex;
 flex-wrap: nowrap;
@@ -188,7 +180,6 @@ position: relative;
 .containerbg {
   max-width: 1920px;
   min-width: 640px;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -216,18 +207,20 @@ font-family: 'Roboto', Regular;
 font-size: 15px;
 text-align:center;
 margin-top:190px;
-margin-left:110px;
+margin-left:40px;
 text-transform: uppercase;
 letter-spacing: 2px;
 }
 
 h2{
+
+	
 	margin-bottom: 20px;
 	text-align:center;
 	font-family: 'Roboto', Regular;
 }
 .btn-h2{
-	margin-left: 155px;
+	margin-left: 75px;
 	
 }
 
@@ -236,7 +229,7 @@ h2{
 	position:relative;
 	height: 550px;
     margin:0;
-	float:left;
+	float:right;
 	
 }
 
@@ -250,7 +243,6 @@ margin-top: 125px;
 
 
 .cont-tlo{
-	
 display: flex;
 justify-content: center;
 flex-direction: row;
@@ -300,7 +292,7 @@ flex-direction: row;
 
 }
 .d-kolo-wew{
-	position: relative;	
+position: relative;	
 text-align: center;
 top:20px;
 left:13px;
@@ -460,7 +452,7 @@ margin-bottom: 200px;
 	display:inline-block;
 	border:2px grey solid;
 	background-repeat: no-repeat;
-	background-image:url("images/feature-icons/3.png");
+	background-image:url("./images/feature-icons/3.png");
 	background-position: center;
 
 }
