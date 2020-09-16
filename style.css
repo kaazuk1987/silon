@@ -354,38 +354,39 @@ text-align: center;
 top:20px;
 left:13px;
 }
-.cont-ceny{
-	display:flex;
-	justify-content: center;
-flex-direction: row;
-}
+
 
 /*ceny*/
 .pani1-cena{
-		flex-grow:1;
-	
+	position: relative;
 }
 
 #panie-txt-span{
-	bottom:20px;
-	left:130px;
+	
 	font-family: 'Roboto', Regular;
 	font-size:17px;
 	color:grey;
-	position: relative;
+	position: absolute;
+	bottom:20px;
+	left:250px;
+}
+.p-gwiazdy{
+	position:absolute;
+	width:100px;
+	height: 7px;
+	left:270px;
+	bottom:15px;
 }
 .star{
-top:-20px;
-/*left:150px;*/
-left:33%;
 position: relative;
 color:red;
 
 }
 .cena{
-	bottom:20px;
-	left:185px;
-	position: relative;
+	
+	left:305px;
+	position: absolute;
+	
 }
 
 /*panie zaprezentowaly produkty*/
@@ -461,7 +462,7 @@ color:grey;
 position:absolute;
 right:45%;
 }
-.cena{
+/*.cena{      zmien nazwe 2 ceny
 	left:185px;
 	position: relative;
 }
