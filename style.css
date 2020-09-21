@@ -305,6 +305,8 @@ flex-direction: row;
 }  
 
 .panie{
+	position: relative;
+	left:60px;
 	display: inline-flex;
 	
 }
@@ -314,7 +316,7 @@ flex-direction: row;
 .d-kolo  /*okrag bez wypelnienia*/
 {
 	display: none;
-	flex-grow: :1;
+	flex-grow: 1;
  	border-color: red;
  	border:2px solid;
  	border-radius:50px;
@@ -357,8 +359,17 @@ left:13px;
 
 
 /*ceny*/
+.kontener_panie_gora{
+display: flex;
+margin-right:70px;
+	width:1170px;
+	height: 40px;
+	flex-direction: row;	
+}
 .pani1-cena{
 	position: relative;
+	flex-grow: 1;
+	
 }
 
 #panie-txt-span{
@@ -366,9 +377,10 @@ left:13px;
 	font-family: 'Roboto', Regular;
 	font-size:17px;
 	color:grey;
-	position: absolute;
+	position: relative;
 	bottom:20px;
 	left:250px;
+
 }
 .p-gwiazdy{
 	position:absolute;
@@ -443,8 +455,12 @@ margin-left: 200px;
 
 
 }
-.car-gwiazdy {
 
+.car-gwiazdy {
+position: absolute;
+	bottom:80px;
+	left:28%;
+	display:block;
 
 }
 
@@ -565,6 +581,8 @@ margin-bottom: 200px;
 	/*flex-grow: 1;*/
 }
 
+
+
 .panie2{
 	width:230px;
 	height:300px;
@@ -641,10 +659,10 @@ position: relative;
 
 }
 
-.p2-gwiazdy{
+.p22-gwiazdy{
 	position: absolute;
-	bottom:8px;
-	left:10%;
+	bottom:30px;
+	left:26%;
 	display:block;
 	
 }
