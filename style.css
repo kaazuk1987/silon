@@ -158,10 +158,11 @@ width:100%;
 	
  .menu-gora:hover
  {
- 	
+ 	/*
 animation-play-state: running;
 animation: example 1s infinite ease-in;
- 	background-color: #f92222;
+ 	*/
+	background-color: #f92222;
  	border-radius: 10px;
  	border-width: 20px;
  	
@@ -202,7 +203,7 @@ animation: example 1s infinite ease-in;
  .spn-glyph{
 color:white;
 padding-bottom: 3px;
-padding-left: 6px;
+padding-left: 5px;
 position: relative;
 
  }
@@ -251,10 +252,10 @@ font-family: 'Roboto', Regular;
 font-size: 15px;
 text-align:center;
 margin-top:-50px;
-margin-right: 60px;
+left: 18px;
 text-transform: uppercase;
 letter-spacing: 2px;
-position:absolute;
+position:relative;
 }
 
 h2{
@@ -269,7 +270,7 @@ h2{
 	position: absolute;
 };}
 .btn-h2{
-	margin-left: 75px;
+	margin-left: 67px;
 }
 @media only screen and (max-width: 1000px) {
 #ban1{
